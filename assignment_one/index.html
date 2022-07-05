@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Java Script Assignment One</title>
+    <script>
+      // This code doesn't work because the compiler works step by step it doesn't see the 'el'
+      document.getElementById("el").style.color = "red";
+    </script>
+    <script>
+      // This code will execute because first load the page after that will load the javascript code
+      window.onload = function() {
+        document.getElementById("el").style.color = "red";
+      };
+    </script>
+  </head>
+  <body>
+    <h1 id="el">Page Title</h1>
+    <script>
+      // the code will execute because the compiler run step by step or line by line
+      document.getElementById("el").style.color = "red";
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
