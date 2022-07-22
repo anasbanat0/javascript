@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Java Script Assignment Fourteen</title>
+    <link rel="stylesheet" href="main.css" />
+    <style>
+      .up {
+        background-color: red;
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 7px 15px;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        border-radius: 20px;
+        display: none;
+        cursor: pointer;
+      }
+      #popup {
+        width: 450px;
+        height: 150px;
+        background-color: #eee;
+        margin: auto;
+        text-align: center;
+        border: 1px solid #bbb;
+        position: relative;
+        display: none;
+      }
+      #popup h3 {
+        padding-top: 25px;
+      }
+      #popup #popup-btn {
+        background-color: red;
+        outline-color: white;
+        border-width: 2px;
+        border-color: #ddd;
+        border-style: solid;
+        padding: 5px 10px;
+        border-radius: 50%;
+        font-size: 20px;
+        position: absolute;
+        top: -15px;
+        right: -15px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="up">Up</button>
+    <button>Stop</button>
+    <div class="div">5</div>
+    <div id="sec01">Section One</div>
+    <div id="sec02">Section Two</div>
+    <div id="popup">
+      <h3>Welcome</h3>
+      <p>Welcome To Elzero Web School</p>
+      <button id="popup-btn">X</button>
+    </div>
+    <div id="div">10</div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
