@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Open+Sans&family=Roboto&display=swap');
+body {
+  color: red;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+.container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.form,
+.tasks {
+  margin: 20px auto;
+  width: 80%;
+  background-color: #eee;
+  text-align: center;
+  padding: 40px;
+  border-radius: 30px;
+}
+.form .input {
+  width: 40%;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid #ddd;
+}
+.form .add {
+  margin-left: 10px;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: rgba(248, 82, 31);
+  border-radius: 15px;
+  border: 2px solid #ddd;
+  cursor: pointer;
+}

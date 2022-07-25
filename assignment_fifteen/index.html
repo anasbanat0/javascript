@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Java Script Assignment Fifteen</title>
+    <link rel="stylesheet" href="main.css" />
+    <style>
+      /* body {
+        background-color: #eee;
+      }
+      ul {
+        padding: 0;
+        margin: 0;
+        background-color: #ddd;
+        margin: 20px auto;
+        padding: 20px;
+        width: 400px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+      }
+      ul li {
+        width: 60px;
+        height: 60px;
+        border: 2px solid transparent;
+        opacity: 0.4;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      ul li.active,
+      ul li:hover {
+        opacity: 1;
+      }
+      ul li:first-child {
+        background-color: red;
+      }
+      ul li:nth-child(2) {
+        background-color: green;
+      }
+      ul li:nth-child(3) {
+        background-color: blue;
+      }
+      ul li:nth-child(4) {
+        background-color: black;
+      }
+      .experiment {
+        background-color: red;
+        width: 600px;
+        height: 300px;
+        margin: 20px auto;
+      } */
+    </style>
+  </head>
+  <body>
+    <!-- <form action="">
+      <input type="text" name="name" class="name" />
+    </form>
+    <ul>
+      <li class="active" data-color="red"></li>
+      <li data-color="green"></li>
+      <li data-color="blue"></li>
+      <li data-color="black"></li>
+    </ul>
+    <div id="exp" class="experiment"></div> -->
+    <div class="container">
+      <div class="form">
+        <input type="text" class="input" />
+        <input type="submit" value="Add Task" class="add" />
+      </div>
+      <div class="tasks"></div>
+    </div>
+    <hr />
+    <hr />
+    <hr />
+    <form action="">
+      <input id="text" type="text" value="" placeholder="wirte your name" />
+      <input id="email" type="email" value="" placeholder="wirte your Email" />
+      <input id="num" type="number" value="" placeholder="wirte your Number" />
+      <select name="" id="color">
+        <option value="red">Red</option>
+        <option value="yellow">Yellow</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+        <option value="black">Black</option>
+        <option value="aqua">Aqua</option>
+      </select>
+    </form>
+    <form action="">
+      <select name="" id="fonts">
+        <option value="open sans">Open</option>
+        <option value="cairo">Cairo</option>
+        <option value="roboto">Roboto</option>
+      </select>
+      <select name="" id="colors">
+        <option value="red">Red</option>
+        <option value="yellow">Yellow</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+        <option value="black">Black</option>
+        <option value="aqua">Aqua</option>
+      </select>
+      <select name="" id="sizes">
+        <script>
+          for (let i = 16; i <= 30; i++) {
+            document.write(`<option value="${i}px">${i}px</option>`);
+          }
+        </script>
+      </select>
+    </form>
+    <script src="js/main.js"></script>
+  </body>
+</html>
