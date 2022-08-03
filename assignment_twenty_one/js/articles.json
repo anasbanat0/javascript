@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "author_name": "Anas Banat",
+    "category": "Technology",
+    "title": "How to add navbar to your website",
+    "content": "At first you must to create index.php and style.css then directory or folder its name 'include' put in it header.php file then add nav tag from it"
+  },
+  {
+    "id": 2,
+    "author_name": "Anas Banat",
+    "category": "Technology",
+    "title": "How to add navbar to your website",
+    "content": "At first you must to create index.php and style.css then directory or folder its name 'include' put in it header.php file then add nav tag from it"
+  },
+  {
+    "id": 3,
+    "author_name": "Anas Banat",
+    "category": "Technology",
+    "title": "How to add navbar to your website",
+    "content": "At first you must to create index.php and style.css then directory or folder its name 'include' put in it header.php file then add nav tag from it"
+  },
+  {
+    "id": 4,
+    "author_name": "Anas Banat",
+    "category": "Technology",
+    "title": "How to add navbar to your website",
+    "content": "At first you must to create index.php and style.css then directory or folder its name 'include' put in it header.php file then add nav tag from it"
+  },
+  {
+    "id": 5,
+    "author_name": "Anas Banat",
+    "category": "Technology",
+    "title": "How to add navbar to your website",
+    "content": "At first you must to create index.php and style.css then directory or folder its name 'include' put in it header.php file then add nav tag from it"
+  }
+]

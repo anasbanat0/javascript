@@ -1,0 +1,11 @@
+{
+  "string": "Anas",
+  "number": 100,
+  "object": {
+    "PS": "Gaza",
+    "USA": "Los Angeles"
+  },
+  "array": ["HTML", "CSS", "JS"],
+  "boolean": true,
+  "null": null
+}
