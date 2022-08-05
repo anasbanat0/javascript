@@ -272,7 +272,7 @@ myRequest.onreadystatechange = function () {
 /*******************************/
 let httpRequest;
 if (window.XMLHttpRequest) { // Mozilla, Safari, IE7+, etc.
-  httpRequest = new XMLHttpRequest();
+  httpRequest = new XMLHttpRequest(); // AJAX
 } else if (window.ActiveXObject) { // IE 6 and older
   httpRequest = new ActiveXObject("Microsoft.XMLHTTP");
 }
